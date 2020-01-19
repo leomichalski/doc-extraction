@@ -5,8 +5,15 @@ FROM $BASE_CONTAINER
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
-#USER root
-#RUN apt-get update && apt-get install -yq --no-install-recommends \
+USER root
+RUN apt-get update \
+ && apt-get install -yq --no-install-recommends \
+    sudo \
+    tesseract-ocr \
+    tesseract-ocr-por \
+ && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+
 
 USER $NB_UID
 COPY requirements.txt /tmp/
