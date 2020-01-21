@@ -1,7 +1,0 @@
-md5: 0e1291c230543ea61d72ac35307a7e55
-outs:
-- md5: 8352e98e6b9069dac3b7e619460f3bcf
-  path: exploration_data_pdfs.zip
-  cache: true
-  metric: false
-  persist: false
