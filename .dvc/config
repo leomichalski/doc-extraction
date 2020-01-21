@@ -1,5 +1,3 @@
 
 ['remote "leommiranda"']
 url = gs://doc-extraction/exploration_data_pdfs
-[core]
-remote = leommiranda
