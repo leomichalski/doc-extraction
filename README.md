@@ -1,6 +1,6 @@
 # How to run doc-extraction
 1. First, make sure that you've installed docker.
-2. Open the terminal and type the command
+2. Open the terminal and type this command. It'll pull the image from the DockerHub repository and, then, run it as a container. 
 ```
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes leommiranda/doc-extraction
 ```
