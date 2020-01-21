@@ -13,4 +13,4 @@ git clone https://github.com/leommiranda/doc-extraction
 ```
 !git clone https://github.com/leommiranda/doc-extraction
 ```
-6. ;)
+6. (☞ﾟヮﾟ)☞
