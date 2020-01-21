@@ -5,7 +5,7 @@ numpy==1.18.1
 matplotlib==3.1.2
 opencv-contrib-python==4.1.2.30
 dvc==0.81.3
-dvc[gs]==0.82.1
+#dvc[gs]==0.82.1
 imutils==0.5.3
 ipykernel==5.1.3
 ipython==7.11.1
