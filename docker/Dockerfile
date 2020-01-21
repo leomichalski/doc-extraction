@@ -11,6 +11,7 @@ RUN apt-get update \
     sudo \
     tesseract-ocr \
     tesseract-ocr-por \
+    poppler-utils \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 USER $NB_UID
