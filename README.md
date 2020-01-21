@@ -8,9 +8,17 @@ docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes leommiranda/doc-extractio
 4. Then, open a Jupyter Lab terminal and type
 ```
 git clone https://github.com/leommiranda/doc-extraction
+
+gcloud beta auth application-default login
+cd doc-extraction
+dvc pull
 ```
 5. Or, you may create a new Jupyter Notebook and run
 ```
 !git clone https://github.com/leommiranda/doc-extraction
+
+!gcloud beta auth application-default login
+!cd doc-extraction
+!dvc pull
 ```
 6. (☞ﾟヮﾟ)☞
