@@ -11,6 +11,7 @@ RUN apt-get update \
     sudo \
     tesseract-ocr \
     tesseract-ocr-por \
+    google-cloud-sdk \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
