@@ -1,7 +1,0 @@
-md5: b717735e86f012f7c0f5712f1ea56ffc
-outs:
-- md5: bdddd98cd85d135ad575727a1d3bb64c.dir
-  path: exploration_data_pdfs
-  cache: true
-  metric: false
-  persist: false

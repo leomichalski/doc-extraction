@@ -1,0 +1,7 @@
+md5: 698b23900c1e1de287280ca563d8445e
+outs:
+- md5: e53bce5c4be7fb065f6a88e66c07476d
+  path: exploration_data.zip
+  cache: true
+  metric: false
+  persist: false
