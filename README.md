@@ -20,7 +20,7 @@ imutils
 docker pull leommiranda/doc-extraction
 ```
 
-# How to run the example Jupyter Notebook
+# How to run the sample Jupyter Notebooks
 
 1. Open a terminal and clone the reopository.
 ```
