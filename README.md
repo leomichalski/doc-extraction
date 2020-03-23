@@ -13,3 +13,11 @@ docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v ${PWD}:/current_direct
 ```
 5. Open one of the 3 server links that will appear in the terminal.
 6. (☞ﾟヮﾟ)☞
+7. Oh, I almost forgot. If you want to run your own Python script with this image, you could simply:
+```
+docker run --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction python [SCRIPT_NAME].py
+# or even
+docker run -it --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction /bin/dash
+python [SCRIPT_NAME].py
+
+```
