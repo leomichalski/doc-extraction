@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/leommiranda/doc-extraction
 ```
-3. Download the dataset from: <https://console.cloud.google.com/storage/browser/doc-extraction/?project=leommiranda>
+3. Download the dataset from: <https://storage.cloud.google.com/doc-extraction/exploration_data.zip>
 4. Open the terminal and type this command. It'll pull the image from the DockerHub repository and, then, run it as a container on your current directory (doc-extraction).
 ```
 cd doc-extraction
