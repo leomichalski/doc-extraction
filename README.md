@@ -22,7 +22,7 @@ docker pull leommiranda/doc-extraction
 
 # How to run the sample Jupyter Notebooks
 
-1. Open a terminal and clone the reopository.
+1. Open a terminal and clone the repository.
 ```
 git clone https://github.com/leommiranda/doc-extraction
 ```
@@ -32,13 +32,12 @@ git clone https://github.com/leommiranda/doc-extraction
 cd doc-extraction
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v ${PWD}:/current_directory -w /current_directory leommiranda/doc-extraction
 ```
-5. Open one of the 3 server links that will appear in the terminal.
+5. Open one of the 3 server links that will appear in the terminal. I recommend the last one.
 6. (☞ﾟヮﾟ)☞
 
 # How to run your own Python script
 ```
 docker run --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction python [SCRIPT_NAME].py
-
 # OR
 docker run -it --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction /bin/dash
 python [SCRIPT_NAME_1].py
