@@ -10,6 +10,7 @@ RUN apt-get update \
  && apt-get install -yq --no-install-recommends \
     sudo \
     tesseract-ocr \
+    tesseract-ocr-por \
     poppler-utils \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
