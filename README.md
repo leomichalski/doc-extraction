@@ -1,16 +1,21 @@
-## WARNING: This is not an API. If you want to do something with the Python libraries installed in the docker image, you need to code it yourself.
+### WARNING: This is not an API. If you want to do something with the Python libraries installed in the docker image, you need to code it yourself.
 
 ```
 # Main Libraries
 
-Pillow
 pytesseract (english and portuguese pre-installed)
 pdf2image
-numpy
-matplotlib
+
+Pillow
 opencv-contrib-python
-dvc
 imutils
+
+matplotlib
+numpy
+pandas
+pyarrow
+
+dvc
 ```
 
 # How to install the docker image
@@ -35,11 +40,16 @@ docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v ${PWD}:/current_direct
 5. Open one of the 3 server links that will appear in the terminal. I recommend the last one.
 6. (☞ﾟヮﾟ)☞
 
-# How to run your own Python script
+# How to run a Python script
+
 ```
 docker run --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction python [SCRIPT_NAME].py
-# OR
-docker run -it --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction /bin/dash
+```
+
+# How to run multiple Python scripts
+
+```
+docker run -it --rm -v ${PWD}:/current_dir -w /current_dir leommiranda/doc-extraction /bin/bash
 python [SCRIPT_NAME_1].py
 python [SCRIPT_NAME_2].py
 (...)
