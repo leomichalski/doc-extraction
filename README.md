@@ -24,6 +24,7 @@ dvc
 ```
 docker pull leommiranda/doc-extraction
 ```
+3. Never trusting people on the internet is a good practice. You can check the image here: https://hub.docker.com/r/leommiranda/doc-extraction
 
 # How to run the sample Jupyter Notebooks
 
