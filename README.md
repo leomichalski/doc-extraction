@@ -1,3 +1,6 @@
+## DEPRECATED. Use https://github.com/leomichalski/tesserocr instead.
+
+
 ### WARNING: This is not an API. If you want to do something with the Python libraries installed in the docker image, you need to code it yourself.
 
 ```
