@@ -1,7 +1,7 @@
 Pillow==7.0.0
 pytesseract==0.3.1
 pdf2image==1.11.0
-numpy==1.18.1
+numpy==1.22.0
 matplotlib==3.1.2
 opencv-contrib-python==4.1.2.30
 dvc==0.81.3
